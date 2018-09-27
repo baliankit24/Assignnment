@@ -1,0 +1,37 @@
+[
+    {
+        "ManufacturerName": "American Home Food Products",
+        "StockSymbol": "AHFP",
+        "Mfr" : "A"
+    },
+    {
+        "ManufacturerName": "General Mills",
+        "StockSymbol": "GIS",
+        "Mfr" : "G"
+    },
+    {
+        "ManufacturerName": "Kelloggs",
+        "StockSymbol": "K",
+        "Mfr" : "L"
+    },
+    {
+        "ManufacturerName": "Nabisco",
+        "StockSymbol": "KHC",
+        "Mfr" : "N"
+    },
+    {
+        "ManufacturerName": "Post",
+        "StockSymbol": "POST",
+        "Mfr" : "P"
+    },
+    {
+        "ManufacturerName": "Quaker Oats",
+        "StockSymbol": "PEP",
+        "Mfr" : "Q"
+    },
+    {
+        "ManufacturerName": "Ralston Purina",
+        "StockSymbol": "NSRGF",
+        "Mfr" : "R"
+    }
+]

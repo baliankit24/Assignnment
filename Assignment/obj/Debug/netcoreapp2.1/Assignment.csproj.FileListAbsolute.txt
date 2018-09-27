@@ -1,0 +1,14 @@
+D:\My\Projects\VsCode\Assignment\Assignment\bin\Debug\netcoreapp2.1\Assignment.deps.json
+D:\My\Projects\VsCode\Assignment\Assignment\bin\Debug\netcoreapp2.1\Assignment.runtimeconfig.json
+D:\My\Projects\VsCode\Assignment\Assignment\bin\Debug\netcoreapp2.1\Assignment.runtimeconfig.dev.json
+D:\My\Projects\VsCode\Assignment\Assignment\bin\Debug\netcoreapp2.1\Assignment.dll
+D:\My\Projects\VsCode\Assignment\Assignment\bin\Debug\netcoreapp2.1\Assignment.pdb
+D:\My\Projects\VsCode\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.csprojAssemblyReference.cache
+D:\My\Projects\VsCode\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.csproj.CoreCompileInputs.cache
+D:\My\Projects\VsCode\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.RazorAssemblyInfo.cache
+D:\My\Projects\VsCode\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.RazorAssemblyInfo.cs
+D:\My\Projects\VsCode\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.AssemblyInfoInputs.cache
+D:\My\Projects\VsCode\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.AssemblyInfo.cs
+D:\My\Projects\VsCode\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.RazorTargetAssemblyInfo.cache
+D:\My\Projects\VsCode\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.dll
+D:\My\Projects\VsCode\Assignment\Assignment\obj\Debug\netcoreapp2.1\Assignment.pdb
