@@ -1,0 +1,17 @@
+D:\My\Projects\VsCode\Assignment\Assignment.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\My\Projects\VsCode\Assignment\Assignment.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\My\Projects\VsCode\Assignment\Assignment.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\My\Projects\VsCode\Assignment\Assignment.Test\bin\Debug\netcoreapp2.1\Assignment.Test.deps.json
+D:\My\Projects\VsCode\Assignment\Assignment.Test\bin\Debug\netcoreapp2.1\Assignment.Test.runtimeconfig.json
+D:\My\Projects\VsCode\Assignment\Assignment.Test\bin\Debug\netcoreapp2.1\Assignment.Test.runtimeconfig.dev.json
+D:\My\Projects\VsCode\Assignment\Assignment.Test\bin\Debug\netcoreapp2.1\Assignment.Test.dll
+D:\My\Projects\VsCode\Assignment\Assignment.Test\bin\Debug\netcoreapp2.1\Assignment.Test.pdb
+D:\My\Projects\VsCode\Assignment\Assignment.Test\bin\Debug\netcoreapp2.1\Assignment.dll
+D:\My\Projects\VsCode\Assignment\Assignment.Test\bin\Debug\netcoreapp2.1\Assignment.pdb
+D:\My\Projects\VsCode\Assignment\Assignment.Test\obj\Debug\netcoreapp2.1\Assignment.Test.csprojAssemblyReference.cache
+D:\My\Projects\VsCode\Assignment\Assignment.Test\obj\Debug\netcoreapp2.1\Assignment.Test.csproj.CoreCompileInputs.cache
+D:\My\Projects\VsCode\Assignment\Assignment.Test\obj\Debug\netcoreapp2.1\Assignment.Test.AssemblyInfoInputs.cache
+D:\My\Projects\VsCode\Assignment\Assignment.Test\obj\Debug\netcoreapp2.1\Assignment.Test.AssemblyInfo.cs
+D:\My\Projects\VsCode\Assignment\Assignment.Test\obj\Debug\netcoreapp2.1\Assignment.Test.csproj.CopyComplete
+D:\My\Projects\VsCode\Assignment\Assignment.Test\obj\Debug\netcoreapp2.1\Assignment.Test.dll
+D:\My\Projects\VsCode\Assignment\Assignment.Test\obj\Debug\netcoreapp2.1\Assignment.Test.pdb

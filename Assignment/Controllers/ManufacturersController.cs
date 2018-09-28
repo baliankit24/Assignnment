@@ -59,7 +59,7 @@ namespace Assignment.Controllers
 
         private string GetCurrentMfr(string manufacturerName)
         {
-            return _context.Manufacturers.Where(x => x.ManufacturerName.Equals(manufacturerName)).FirstOrDefault().Mfr;
+            return _context.Manufacturers.Where(x => x.ManufacturerName.Equals(manufacturerName)).FirstOrDefault()?.Mfr;
         }
 
         #endregion
