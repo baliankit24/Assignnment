@@ -22,25 +22,29 @@ namespace Assignment.Controllers
 
         // GET api/Products
         [HttpGet]
-        public ActionResult<IEnumerable<Product>> Get(string name, string minimumRating, string minimumFiberContent, string minimumProteinContent)
+        public ActionResult<IEnumerable<Product>> Get(
+                                        string name = "",
+                                        string minimumRating = "",
+                                        string minimumFiberContent = "",
+                                        string minimumProteinContent = "")
         {
             IEnumerable<Product> products = _context.Products;
 
             if (!string.IsNullOrWhiteSpace(name))
             {
-                products.Where(x => x.name.Equals(name));
+                products = products.Where(x => x.name.Equals(name));
             }
             if (!string.IsNullOrEmpty(minimumRating))
             {
-                products.Where(x => Convert.ToDecimal(x.rating) > Convert.ToDecimal(minimumRating));
+                products = products.Where(x => Convert.ToDecimal(x.rating) == Convert.ToDecimal(minimumRating));
             }
             if (!string.IsNullOrEmpty(minimumFiberContent))
             {
-                products.Where(x => Convert.ToDecimal(x.fiber) > Convert.ToDecimal(minimumFiberContent));
+                products = products.Where(x => Convert.ToDecimal(x.fiber) == Convert.ToDecimal(minimumFiberContent));
             }
             if (!string.IsNullOrEmpty(minimumProteinContent))
             {
-                products.Where(x => Convert.ToDecimal(x.protein) > Convert.ToDecimal(minimumProteinContent));
+                products = products.Where(x => Convert.ToDecimal(x.protein) == Convert.ToDecimal(minimumProteinContent));
             }
             return products.ToList();
         }
