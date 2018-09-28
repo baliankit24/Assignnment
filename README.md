@@ -1,4 +1,4 @@
-# Assignnment - Web API
+# Assignment - Web API
 This involves development of web api which provide two endpoints i.e. manufacturers and products.
 
 ## End point - Manufacturers :
