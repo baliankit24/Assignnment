@@ -33,14 +33,14 @@ namespace Assignment.Controllers
                 return _context.Manufacturers.Where(x => x.ManufacturerName.Contains(name)).ToList();
             }
         }
-
+        
         [HttpGet]
         public ActionResult<int> GetProductCount(string manufacturerName)
         {
             int count = 0;
             if (!string.IsNullOrEmpty(manufacturerName))
             {
-                var currentMfr = _context.Manufacturers.Where(x => x.ManufacturerName.Equals(manufacturerName)).FirstOrDefault().Mfr;
+                var currentMfr = GetCurrentMfr(manufacturerName);
                 if (!string.IsNullOrEmpty(currentMfr) && _context.Products != null && _context.Products.Count() > 0)
                 {
                     count = _context.Products.Where(x => x.mfr.Equals(currentMfr)).Count();
@@ -48,5 +48,20 @@ namespace Assignment.Controllers
             }
             return count;
         }
+
+        public ActionResult<string> GetStock(string manufacturerName)
+        {
+            var currentMfr = GetCurrentMfr(manufacturerName);
+            return ApiHelper.GetStock(currentMfr);
+        }
+
+        #region Private methods
+
+        private string GetCurrentMfr(string manufacturerName)
+        {
+            return _context.Manufacturers.Where(x => x.ManufacturerName.Equals(manufacturerName)).FirstOrDefault().Mfr;
+        }
+
+        #endregion
     }
 }
