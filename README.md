@@ -1,4 +1,4 @@
-# Assignnment - Web API
+# Assignment - Web API
 
 This web api exposed below two endpoints that can be consumed by client.
 
