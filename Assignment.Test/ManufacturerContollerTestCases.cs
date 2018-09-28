@@ -42,5 +42,13 @@ namespace Assignment.Test
             Assert.IsTrue(result.FirstOrDefault().Mfr.Equals(mnMfr), "MFR does not matches");
             Assert.IsTrue(result.FirstOrDefault().StockSymbol.Equals(mnStockSymbol), "Stock symbol does not matches");
         }
+
+        [TestMethod]
+        public void CheckGetProductCount()
+        {
+            string mnName = "American Home Food Products";
+            var result = _mnController.GetProductCount(mnName).Value;
+            Assert.IsTrue(result == 1, $"Count of products {result} does not matches 7 for - American Home Food Products");
+        }
     }
 }
