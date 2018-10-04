@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Assginment.Filters;
 using Assignment.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,8 +28,11 @@ namespace Assignment
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options => options.UseInMemoryDatabase("Products"));        
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddDbContext<ApplicationDbContext>(options =>
+                    options.UseInMemoryDatabase("Products"));
+            services.AddMvc(options =>
+                    options.Filters.Add(new ApiExceptionFilter()))
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,7 +48,12 @@ namespace Assignment
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
+            app.UseMvc(
+                routes =>
+                {
+                    routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
+                }
+            );
         }
     }
 }
